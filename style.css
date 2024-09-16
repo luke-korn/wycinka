@@ -21,7 +21,7 @@ body {
 
 .header {
   display: flex;
-  flex-wrap:wrap-reverse;
+  flex-wrap:wrap;
   flex: 1 1 auto;
   top: 5%;
   right: 40%;
@@ -38,9 +38,11 @@ body {
 }
 .title {
   font-weight:normal;
+  margin-left: 70px;
+
 }
 .top-padding {
-  height: 15px;
+  height: 45px;
   /*border: 1px solid #000;*/
 }
 .links{
@@ -131,7 +133,7 @@ button {
   }
 }
 .padding-right {
-  width: 50px;
+  width: 100px;
 }
 
 
@@ -143,9 +145,16 @@ button:focus-visible {
 .row {
   display: flex;
   flex: 1 1 auto;
+  height: 65vh;
   flex-wrap:wrap;
   justify-content: space-around;
+  align-items:center;
   margin: 10px;
+}
+.main{
+  text-align:center;
+  margin-top:100px ;
+
 }
 
 .content {
