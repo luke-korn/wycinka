@@ -1,0 +1,40 @@
+body {
+  background: fuchsia;
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+  font-size: 25px;
+}
+#heightInfo{
+  /* font-size: 19px; */
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -100%);
+  width: 100%;
+  border-bottom: 3px solid white;
+
+}
+
+video{
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+#slider {
+  appearance: none;
+  width:90%;
+  height: 35px;
+  background: #47f;
+  margin-top: 35px;
+}
+
+#slider::-webkit-slider-thumb {
+  appearance:none;
+  width:35px;
+  height:35px;
+  background:whitesmoke;
+}
