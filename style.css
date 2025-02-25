@@ -13,11 +13,6 @@ body {
   );
   /*border: 2px solid purple;*/
 }
-.nav{
-  display: flex;
-  flex-wrap:wrap-reverse;
-
-}
 
 .header {
   display: flex;
@@ -27,7 +22,7 @@ body {
   right: 40%;
   /*background: linear-gradient(45deg, green, lightgreen);*/
   /*background: linear-gradient(0deg, blue, green 40%, red);*/
-  justify-content: space-between;
+  justify-content: space-around;
   border-radius: 1rem;
   padding-left: 3%;
   padding-right: 2%;
@@ -62,18 +57,19 @@ body {
 .nav {
   height: auto;
   display: flex;
+  flex-wrap:wrap-reverse;
   /*flex: 1 1 auto;*/
   align-items: center;
   /*background: linear-gradient(45deg, green, lightgreen);*/
   /*background: linear-gradient(0deg, blue, green 40%, red);*/
-  justify-content: space-between;
-  border-radius: 10px;
+  /*justify-content: space-between;*/
+  /*border-radius: 10px;*/
   /*border: 2px solid purple;*/
   /*z-index: 2;*/
   /*justify-self: right;*/
   /*border: 1px solid #000;*/
   /*align-self:end;*/
-  margin-left:auto;
+  /*margin-left:auto;*/
 }
 
 
@@ -93,8 +89,7 @@ button {
 }
 .icons{
   display: flex;
-  gap:25px;
-  margin-left: 15px;
+  gap:55px;
 }
 .menu {
   position: relative;
@@ -105,6 +100,7 @@ button {
   /*margin: 20px 0 0 100px;*/
   font-size: 22px;
   height: 54px;
+  cursor: pointer;
 
   &::before {
     content: "";
@@ -269,6 +265,7 @@ h1, h3 {
   padding: 0;
   margin: 0;
   text-shadow: 1px 1px 4px #000;
+  font-weight: normal;
 }
 
 @media all and (max-width: 800px) {
