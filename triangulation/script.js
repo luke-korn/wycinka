@@ -20,7 +20,6 @@ function onOrientationChange(event) {
   const info = document.querySelector("#heightInfo") 
   const test = document.querySelector("#test") 
   let angle = event.beta - 90
-  test.innerHTML = angle
   if (angle < 0) angle = 0
   const slider = document.querySelector('#slider')
   const label = document.querySelector('#label')
